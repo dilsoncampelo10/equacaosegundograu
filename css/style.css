@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(#220549,#3B0086);
+    color: #CFBAE1;
+    padding: 20px;
+    font-family: 'Zilla Slab', serif;;
+}
+header h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 5px #402E2A;
+}
+header p{
+    font-size: 1.2rem;
+    text-shadow: 5px 1px 5px #402E2A;
+}
+section{
+    margin-top: 20px;
+    padding: 10px;
+}
+section h2{
+    background-image:linear-gradient( to right, #FCA311, #CFBAE1);
+    color:#402E2A ;
+    padding: 5px;
+}
+main{
+    font-size: 1.2rem;
+    padding-left: 30px;
+    max-width: 500px;
+  
+}
+main form{
+    margin-top: 30px;
+    padding: 10px;
+}
+main input[type='number']{
+    width: 100px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+main .button input{
+    margin-top: 20px;
+    width: calc(100% - 50px);
+    background-color: #220549;
+    color: #FCA311;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+main .result{
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 50px;
+    height: 198px;
+    padding: 56px;
+    background-color: #402E2A;
+    color: #CFBAE1;
+    text-align: center;
+
+}
+
+@media (max-width:456px){
+    main{
+        font-size: 16px;
+    }
+    main input[type='number']{
+        font-size: 16px;
+        width: 60px;
+        
+    }
+}

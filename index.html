@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Equação do segundo grau</h1>
+        </div>
+        <div>
+            <p>Resolva equações do segundo grau de forma rápida</p>
+         </div>
+    </header>
+    <section>
+       <h2>Insira os valores abaixo</h2>
+    </section>
+    <main>
+        <div>
+            <form>
+                <div class="campos">
+                    <input type="number" name="valora" id="idvalora" placeholder="a">
+                    <label for="">x² +</label>
+                    <input type="number" name="valorb" id="idvalorb" placeholder="b">
+                    <label for="">x +</label>
+                    <input type="number" name="valorc" id="idvalorc" placeholder="c">
+                    <label for=""> = 0</label>
+                </div>
+                <div class="button">
+                    <input type="button" value="Calcular" onclick="calcular()">
+                </div>
+            </form>
+        </div>
+        <div class="result">
+            <div id="resultado">Resultado</div>
+        </div>
+    </main>
+    <footer>
+        <div>&copy;Dilson Campêlo</div>
+        <div>14/10/2021</div>
+    </footer>
+    <script src="js/bhaskara.js"></script>
+</body>
+</html>
